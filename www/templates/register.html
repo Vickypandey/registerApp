@@ -1,0 +1,27 @@
+<ion-view title="Register" id="page1" style="background-color:#FFFFFF;">
+  <ion-content padding="true" class="has-header">
+    <div id="register-container1">
+      <div>
+        <img src="img/E2be4lkBS4ylgrcgB5qY_app_logo.jpg" style="display: block; width: 20%; height: auto; margin-left: auto; margin-right: auto;">
+      </div>
+    </div>
+    <div class="spacer" style="width: 300px; height: 35px;"></div>
+    <form id="register-form2" class="list">
+      <label class="item item-input" id="register-input3" name="username">
+        <input type="text" placeholder="Username" ng-model="user.username">
+      </label>
+      <label class="item item-input" id="register-input4" name="email">
+        <input type="email" placeholder="Email" ng-model="user.email">
+      </label>
+      <label class="item item-input" id="register-input5" name="password">
+        <input type="password" placeholder="Password" ng-model="user.password">
+      </label>
+    </form>
+    <button id="register-button1" class="button button-positive  button-block" ng-click="signup()">Sign up</button>
+    <div id="register-button-bar1" class="button-bar">
+      <button id="register-button8" class="button button-assertive  button-block icon ion-social-googleplus"></button>
+      <button id="register-button9" class="button button-calm  button-block icon ion-social-linkedin-outline"></button>
+      <button id="register-button10" class="button button-positive  button-block icon ion-social-facebook"></button>
+    </div>
+  </ion-content>
+</ion-view>
